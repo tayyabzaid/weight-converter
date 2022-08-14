@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap-5.2.0-beta1-dist/bootstrap-5.2.0-beta1-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="bootstrap-5.2.0-beta1-dist/bootstrap-5.2.0-beta1-dist/js/bootstrap.js">
+    <link rel="stylesheet" href="tayyab.css">
+</head>
+
+<body style="background-color: black">
+    <div class="main">
+        <h1 class="h">Weight Converter</h1>
+
+        <div>
+            <input  oninput="good()" class="row col-md-4 i" type="number" id="userinput" placeholder="pounds">
+        </div>
+
+        <div class="row g">
+            <h3>Grams:</h3>
+            <p id="grams"></p>
+        </div>
+
+        <div class="row k">
+            <h3>Kilograms:</h3>
+            <p id="Kilograms"></p>
+        </div>
+
+        <div class="row f">
+            <h3>Ounces:</h3>
+            <p id="ounces"></p>
+        </div>
+
+    </div>
+
+<script>
+
+// let userinput=document.querySelector("#userinput").value
+
+// let grams=document.querySelector("#grams")
+// // console.log(grams)
+// let Kilograms=document.querySelector("#Kilograms")
+// // console.log(Kilograms)
+// let ounces=document.querySelector("#ounces")
+// // console.log(ounces)
+
+function good() {
+    let userinput=document.querySelector("#userinput").value
+
+let grams=document.querySelector("#grams")
+// console.log(grams)
+let Kilograms=document.querySelector("#Kilograms")
+// console.log(Kilograms)
+let ounces=document.querySelector("#ounces")
+// console.log(ounces)
+
+    grams.innerHTML=userinput*453.59237
+    Kilograms.innerHTML=userinput/2.2046
+    ounces.innerHTML=userinput*16
+}
+
+</script>
+
+
+
+</body>
+
+
+
+
+
+</html>

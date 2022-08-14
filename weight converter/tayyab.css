@@ -1,0 +1,38 @@
+.main{
+    
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 10%;
+}
+.h{
+   margin-left: 28%;
+   color: aliceblue; 
+}
+.i{
+    
+    padding: 1px;
+    margin: 1px;
+    margin-left: 1%;
+    width: 98%;
+}
+.g{ 
+    background-color:blueviolet;
+    color: aliceblue;
+    
+    padding: px;
+    margin: 3px;
+}
+.f{ 
+    background-color: green;
+    color: aliceblue;
+   
+    padding: 1px;
+    margin: 3px;
+}
+.k{ 
+    background-color: red;
+    color: aliceblue;
+   
+    padding: 1px;
+    margin: 3px;
+}
