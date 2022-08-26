@@ -1,0 +1,135 @@
+#header{
+    color: white;
+     
+    
+}
+.non{
+    display: none;
+}
+
+#menue{
+list-style: none;
+margin: 0;
+padding: 0;
+float: right;
+
+}
+#menue li{
+    display: inline-block;
+}
+#menue li a{
+    color: aliceblue;
+    padding: 18px 15px;
+    display: block;
+}
+a{
+    text-decoration: none;
+}
+#menue li a:hover{
+    background-color:#c0392b;
+}
+.contant{
+    
+    margin-top: 8px;
+    margin-left: 2%;
+    
+}
+/* book services */
+.for{ background-image: url(tayyimg.png);
+    width: 35%;
+    
+    background-color: aquamarine;
+    border-radius: 15px;
+    margin-left: 6%;
+    margin-top: 2%;
+}
+.but{
+    width: 50%;
+    margin: 5px;
+    
+}
+.card{
+    padding: 1px;
+    width: 16rem;
+    height: 18rem;
+    margin: 40px;
+}
+.a{
+    margin-left: 25%;
+    
+    
+ 
+}
+.fd{
+width: 100%;
+
+}
+.b{
+margin-left: 6%;
+}
+.c{
+margin-left: 25%;
+}
+.d{
+margin-left: 6%;
+}
+.col-md-6{
+    border-radius: 20px;
+}
+/* fotter */
+.fot{
+   
+   
+}
+.cv{
+    width:;
+    margin:  ;
+    padding: px;
+    margin-left: ;
+
+}
+
+
+@media only screen and (max-width: 600px) {
+    body {
+      
+    }
+    .for{
+        width: 85%;
+        margin-left: 8%;
+    }
+
+    .card{
+       
+        padding: px;
+        width: 25rem;
+        height: 15rem;
+        margin: 50px;
+        
+    }
+    .card-img{
+        height: 85%;
+    }
+    .z{
+
+    }
+.hh{
+    width: ;
+    margin-left: -5%;
+}
+
+.bb{
+    display: none;
+}
+
+.fc{
+    margin-top: 20%;
+  }
+  .logo{
+    margin-left:22% ;
+  }
+  .navr{
+    margin-left: -10%;
+  }
+  }
+  
